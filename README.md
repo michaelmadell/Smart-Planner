@@ -66,6 +66,7 @@ server {
 ```
 ```bash
 sudo ln -s /etc/nginx/sites-available/Smart-Planner /etc/nginx/sites-enabled/
+sudo chmod -R 755 /home/your_user/YourRepoName/dist
 sudo nginx -t
 sudo systemctl restart nginx
 ```
